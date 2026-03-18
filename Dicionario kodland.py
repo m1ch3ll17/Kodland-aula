@@ -6,9 +6,8 @@ dicionario = {
     "GAG": "É utilizado quando alguem esta surpreso",
     }
 
-while numero < 6:
-    palavra = input("Digite uma palavra que você nao sebe o significado(por favor colocar em letra maiuscula): ")
-    if palavra in dicionario.keys():
-        print(dicionario[palavra])
-    else:
-        print("esse palavra não esta no nosso sistema")
+palavra = input("Digite uma palavra que você nao sebe o significado(por favor colocar em letra maiuscula): ")
+if palavra in dicionario.keys():
+    print(dicionario[palavra])
+else:
+    print("esse palavra não esta no nosso sistema")
